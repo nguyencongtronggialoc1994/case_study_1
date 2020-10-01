@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHELSEA FC</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+<div id="container">
+    <div id="title">
+        <p>CHELSEA FOOTBALL CLUB</p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="">Tin tức</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Lịch thi đấu</a></li>
+            <li><a href="">Danh sách cầu thủ</a></li>
+            <li>
+                <button onclick="logIn()">Đăng nhập</button>
+            </li>
+        </ul>
+    </div>
+    <div id="content">
+<form>
+    <fieldset>
+        <legend>ADDplayer</legend>
+        <input type="text" placeholder="name" id="player-name">
+        <input type="text" placeholder="age" id="player-age">
+        <input type="text" placeholder="weight" id="player-weight">
+        <input type="text" placeholder="height" id="player-height">
+        <input type="text" placeholder="nationality" id="player-nationality">
+        <input type="text" placeholder="img" id="player-img">
+        <button type="button" onclick="addPlayer()">ADD</button>
+        <button type="reset" >RESET</button>
+    </fieldset>
+</form>
+        <form>
+            <fieldset>
+                <legend>updatePlayer</legend>
+                <input type="text" placeholder="name" id="edit-name">
+                <input type="text" placeholder="age" id="edit-age">
+                <input type="text" placeholder="weight" id="edit-weight">
+                <input type="text" placeholder="height" id="edit-height">
+                <input type="text" placeholder="nationality" id="edit-nationality">
+                <input type="text" placeholder="img" id="edit-img">
+                <button type="button" onclick="upDate()">Update</button>
+                <button type="reset" >RESET</button>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <br>
+        <table width="1000px" border="2" cellpadding="5px" cellspacing="0">
+            <tr>
+                <th width="100px">STT</th>
+                <th width="100px">NAME</th>
+                <th width="100px">AGE</th>
+                <th width="100px">WEIGHT</th>
+                <th width="100px">HEIGHT</th>
+                <th width="100px">NATIONALITY</th>
+                <th width="100px">IMG</th>
+            </tr>
+            <tbody id="main"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+<script src="js/Player.js"></script>
+<script src="js/PlayerManager.js"></script>
+</html>

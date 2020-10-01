@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://file.vforum.vn/hinh/2018/03/top-nhung-hinh-anh-hinh-nen-chelsea-dep-nhat-full-hd6.jpg");
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    font-family: sans-serif;
+    color: #00ff80;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: #ffb3b3 2px 3px 4px;
+}
+
+#menu ul {
+    background-color: dodgerblue;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu ul li {
+    color: yellow;
+    display: inline-table;
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+#menu ul li:hover {
+    background: aqua;
+}
+
+#content {
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 20px;
+    color: #00ff80;
+}
